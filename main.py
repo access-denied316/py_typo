@@ -95,6 +95,8 @@ def main():
         '*': ['*'],
         '(': ['('],
         ')': [')'],
+        '\'': ['\''],
+        '\"': ['\"'],
     }
     print("Gimme that funny to type:")
     text = input()
